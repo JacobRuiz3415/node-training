@@ -8,6 +8,7 @@ const MIME_TYPES = {
     '.js': 'application/javascript',
     '.mp3': 'audio/mpeg',
     '.ogg': 'audio/ogg',
+    '.wav': 'audio/wav',
     '.mp4': 'video/mp4',
     '.html': 'text/html',
     '.css': 'text/css'
