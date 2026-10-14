@@ -8,12 +8,21 @@ const PUBLIC_DIR = path.join(__dirname, 'public');
 
 const MIME_TYPES = {
     '.js': 'application/javascript',
+    
+    //audio
     '.mp3': 'audio/mpeg',
     '.ogg': 'audio/ogg',
     '.wav': 'audio/wav',
+    
+    //video
     '.mp4': 'video/mp4',
+
+    //text
     '.html': 'text/html',
-    '.css': 'text/css'
+    '.css': 'text/css',
+
+    //image
+    '.png': 'image/png'
 };
 
 // CORS Headers Helper
